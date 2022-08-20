@@ -19,8 +19,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func button(_ sender: Any) {
-        label.text = "Hello darkness"
-        button.self.setTitle("Apertei IBAction", for: .normal)
+        performSegue(withIdentifier: "segundatela", sender: nil)
+//        label.text = "Hello darkness"
+//        button.self.setTitle("Apertei IBAction", for: .normal)
     }
 
 }

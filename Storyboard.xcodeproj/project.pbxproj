@@ -13,6 +13,8 @@
 		2334143F2899B75B003DC8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2334143D2899B75B003DC8EF /* Main.storyboard */; };
 		233414412899B75F003DC8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233414402899B75F003DC8EF /* Assets.xcassets */; };
 		233414442899B75F003DC8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233414422899B75F003DC8EF /* LaunchScreen.storyboard */; };
+		23A245FC28B1274B005D1556 /* TerceiraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A245FB28B1274B005D1556 /* TerceiraViewController.swift */; };
+		23A245FE28B127F3005D1556 /* SegundaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A245FD28B127F3005D1556 /* SegundaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		233414402899B75F003DC8EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		233414432899B75F003DC8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233414452899B75F003DC8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A245FB28B1274B005D1556 /* TerceiraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerceiraViewController.swift; sourceTree = "<group>"; };
+		23A245FD28B127F3005D1556 /* SegundaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		233414362899B75B003DC8EF /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				23A245FD28B127F3005D1556 /* SegundaViewController.swift */,
 				233414372899B75B003DC8EF /* AppDelegate.swift */,
 				233414392899B75B003DC8EF /* SceneDelegate.swift */,
 				2334143B2899B75B003DC8EF /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				233414402899B75F003DC8EF /* Assets.xcassets */,
 				233414422899B75F003DC8EF /* LaunchScreen.storyboard */,
 				233414452899B75F003DC8EF /* Info.plist */,
+				23A245FB28B1274B005D1556 /* TerceiraViewController.swift */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				2334143C2899B75B003DC8EF /* ViewController.swift in Sources */,
 				233414382899B75B003DC8EF /* AppDelegate.swift in Sources */,
+				23A245FE28B127F3005D1556 /* SegundaViewController.swift in Sources */,
+				23A245FC28B1274B005D1556 /* TerceiraViewController.swift in Sources */,
 				2334143A2899B75B003DC8EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
